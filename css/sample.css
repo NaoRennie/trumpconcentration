@@ -1,0 +1,69 @@
+
+body{
+    font-family: 'メイリオ', Meiryo,'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header h1{
+  margin-bottom: 50px;
+  margin-top:30px;
+}
+
+#board {
+  margin: 0 auto;
+  height: 300px;
+  width: 650px;
+  padding:25px;
+  background-color:#339999;
+}
+
+
+
+ul{
+  height: 300px;
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+li{
+  list-style: none;
+  margin-top:50px;
+  /* background-image: url(''); */
+
+}
+
+.bk_first{
+  position:relative;
+  width: 50px;
+  height: 60px;
+
+}
+
+.bk_clicked{
+  visibility:hidden;
+  opacity:0;
+
+}
+
+.num_card {
+  position:absolute;
+  width: 50px;
+  height: 60px;
+}
+
+.turned {
+  z-index: 2;
+}
+
+.finished{
+  opacity: 0;
+}
+
+
+/* 
+ul {
+  width: 30px;
+} */
